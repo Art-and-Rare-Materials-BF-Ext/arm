@@ -6,6 +6,8 @@ Versions of ARM
 - Version 1.0 (latest): [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/tree/master/v1.0](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/tree/master/v1.0)
 - Version 0.1 (deprecated): [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/tree/master/v0.1](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/tree/master/v0.1)
 
+To view updates, see the ARM Changelog: [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/master/changelog.md](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/master/changelog.md)
+
 
 Members of Current Editorial Group
 -------
