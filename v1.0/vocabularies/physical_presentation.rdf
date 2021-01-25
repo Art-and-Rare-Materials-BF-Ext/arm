@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF  
+    xmlns="https://w3id.org/arm/vocabularies/1.0/physical_presentation/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"  
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    > 
+
+    <skos:ConceptScheme rdf:about="https://w3id.org/arm/vocabularies/1.0/physical_presentation/">
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+        <skos:prefLabel xml:lang="en">Art and Rare Materials Physical Presentation Vocabulary</skos:prefLabel>
+        <skos:definition xml:lang="en">The Art and Rare Materials Physical Presentation Vocabulary is a controlled vocabulary to express the physical arrangment or configuration of objects described in rare materials metadata. Physical Presentation may apply to individual objects or collections of objects.</skos:definition>
+        <vann:preferredNamespacePrefix>arrangement</vann:preferredNamespacePrefix>
+    </skos:ConceptScheme>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/physical_presentation/closed">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/physical_presentation/"/>
+        <skos:prefLabel>closed</skos:prefLabel>
+        <skos:definition>The condition of being closed, such as a book. Particular measurements and other descriptions may pertain to the object in this arrangement.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/physical_presentation/opened">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/physical_presentation/"/>
+        <skos:prefLabel>opened</skos:prefLabel>
+        <skos:definition>The condition of being opened, such as a book. Particular measurements and other descriptions may pertain to the object in this arrangement.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>        
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/physical_presentation/folded">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/physical_presentation/"/>
+        <skos:prefLabel>folded</skos:prefLabel>
+        <skos:definition>The condition of being folded, such as a parchment. Particular measurements and other descriptions may pertain to the object in this arrangement.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>        
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/physical_presentation/unfolded">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/physical_presentation/"/>
+        <skos:prefLabel>unfolded</skos:prefLabel>
+        <skos:definition>The condition of being unfolded, such as a parchment. Particular measurements and other descriptions may pertain to the object in this arrangement.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>        
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/physical_presentation/rolled">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/physical_presentation/"/>
+        <skos:prefLabel>rolled</skos:prefLabel>
+        <skos:definition>The condition of being rolled, such as a scroll. Particular measurements and other descriptions may pertain to the object in this arrangement.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>        
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/physical_presentation/unrolled">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/physical_presentation/"/>
+        <skos:prefLabel>unrolled</skos:prefLabel>
+        <skos:definition>The condition of being unrolled, such as a scroll. Particular measurements and other descriptions may pertain to the object in this arrangement.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>       
+    </skos:Concept>
+    
+</rdf:RDF>
