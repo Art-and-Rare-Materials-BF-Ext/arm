@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF  
+    xmlns="https://w3id.org/arm/vocabularies/1.0/status/"
+    xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"  
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    > 
+    
+    <skos:ConceptScheme rdf:about="https://w3id.org/arm/vocabularies/1.0/status/">
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+        <skos:prefLabel xml:lang="en">Art and Rare Materials Status Vocabulary</skos:prefLabel>
+        <skos:definition xml:lang="en">The Art and Rare Materials Status Vocabulary is a controlled vocabulary to express the status of data, such as an invalid identifier.</skos:definition>
+        <vann:preferredNamespacePrefix>status</vann:preferredNamespacePrefix>
+    </skos:ConceptScheme>    
+
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/status/cancelled">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/status/"/>
+        <skos:prefLabel xml:lang="en">cancelled</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to an identifier or other resource that has been cancelled.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/status/current">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/status/"/>
+        <skos:prefLabel xml:lang="en">current</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to an identifier or other resource that is currently valid.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/status/deprecated">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/status/"/>
+        <skos:prefLabel xml:lang="en">deprecated</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to an identifier or other resource that has been deprecated.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/status/invalid">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/status/"/>
+        <skos:prefLabel xml:lang="en">invalid</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to an identifier or other resource that is invalid.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+</rdf:RDF>

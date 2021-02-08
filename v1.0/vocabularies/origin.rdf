@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF  
+    xmlns="https://w3id.org/arm/vocabularies/1.0/origin/"
+    xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"  
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    > 
+    
+    
+    <skos:ConceptScheme rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/">
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+        <skos:prefLabel xml:lang="en">Art and Rare Materials Origin Vocabulary</skos:prefLabel>
+        <skos:definition xml:lang="en">The Art and Rare Materials Origin Vocabulary is a controlled vocabulary to express the origin of data, such as a title originating from the spine of a volume. Origins in this sense are distinct from sources, which refer to other resources, such as a title issued by an organization.</skos:definition>
+        <vann:preferredNamespacePrefix>origin</vann:preferredNamespacePrefix>
+    </skos:ConceptScheme>
+    
+
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/addedTitlePage">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">added title page</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to a title appearing on a title page that has not been chosen as the chief source.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/binder">
+        <skos:prefLabel xml:lang="en">binder</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to a resource (e.g., a title) derived from a binding that is not that of the publisher.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/caption">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">caption</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to a resource (e.g., a title) given at the beginning of the first page of the text.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/container">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">container</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to a resource (e.g., a title) on the resource's container.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/cover">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">cover</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to a resource (e.g., a title) printed on the cover of a resource as issued.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/margin">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">margin</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to a resource printed on the top or bottom margin of each page of a publication (e.g., a running title).</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/spine">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">spine</skos:prefLabel>
+        <skos:definition xml:lang="en">Applies to a resource found on the spine of a publication (e.g., a publisher's title).</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/supplied">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">supplied</skos:prefLabel>
+        <skos:definition xml:lang="en">Supplied value, not directly transcribed from the resource itself.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/transcribed">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">transcribed</skos:prefLabel>
+        <skos:definition xml:lang="en">Value transcribed directly from the resource.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/origin/translated">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/origin/"/>
+        <skos:prefLabel xml:lang="en">translated</skos:prefLabel>
+        <skos:definition xml:lang="en">Value translated from another language, not transcribed from the resource itself.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+</rdf:RDF>
