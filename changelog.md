@@ -1,5 +1,15 @@
 # ARM Changelog
 
+## [v. 1.0] - 2021-03-13
+### Added terms
+
+#### Classes
+- arm:ConservationHistory
+- arm:ExhibitionHistory
+
+### Updated term
+- arm:hasType - edited definition to make more generic
+
 ## [v. 1.0] - 2020-12-02 - 2020-12-16 
 - Created version 1.0 from version 0.1
 
@@ -48,8 +58,7 @@
 - arm:Correspondent
 - arm:Creator
 - arm:Curator
-- arm:Custodial event
-- arm:CustodialHistory
+- arm:CustodialEvent
 - arm:Deaccessioner
 - arm:Deaccessioning
 - arm:Dealer

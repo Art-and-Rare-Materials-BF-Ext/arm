@@ -143,6 +143,13 @@
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2020-12-16T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
+	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/ConservationHistory">
+		<rdfs:label xml:lang="en">Conservation history</rdfs:label>    
+		<skos:definition xml:lang="en">Entity that aggregates all of the conservation events for a resource.</skos:definition>
+		<rdfs:subClassOf rdf:resource="https://w3id.org/arm/ontology/1.0/ItemHistory"/>
+		<dcterms:issued>2021-03-13T00:00:00-00:00</dcterms:issued>
+		<dcterms:modified>2021-03-13T00:00:00-00:00</dcterms:modified>
+	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/ContentsNote">
 		<rdfs:label xml:lang="en">Contents note</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
@@ -154,6 +161,14 @@
 			http://bibliotek-o.org/1.1/ontology/specifyingContents. Likely belongs in a general
 			bf:Notes extension, but need to add it here for now.</skos:editorialNote>
 		<dcterms:issued>2018-01-29T00:00:00-04:00</dcterms:issued>
+	</owl:Class>
+	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/CustodialHistory">
+		<rdfs:label xml:lang="en">Custodial history</rdfs:label>    
+		<skos:definition xml:lang="en">Entity that aggregates all of the custodial events for a resource.</skos:definition>
+		<skos:scopeNote>A resource has a single CustodialHistory, which is composed of one or more CustodialEvent resources. The Item is directly linked only to its CustodialHistory.</skos:scopeNote>
+		<rdfs:subClassOf rdf:resource="https://w3id.org/arm/ontology/1.0/ItemHistory"/>
+		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+		<dcterms:modified>2021-03-13T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/DescriptiveNote">
 		<rdfs:label xml:lang="en">Descriptive note</rdfs:label>
@@ -192,6 +207,13 @@
 			which does not properly attach to the Item in and of itself.</skos:scopeNote>
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
+	</owl:Class>
+	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/ExhibitionHistory">
+		<rdfs:label xml:lang="en">Exhibition history</rdfs:label>    
+		<skos:definition xml:lang="en">Entity that aggregates all of the exhibition events for a resource.</skos:definition>
+		<rdfs:subClassOf rdf:resource="https://w3id.org/arm/ontology/1.0/ItemHistory"/>
+		<dcterms:issued>2021-03-13T00:00:00-00:00</dcterms:issued>
+		<dcterms:modified>2021-03-13T00:00:00-00:00</dcterms:modified>
 	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Font">
 		<rdfs:label xml:lang="en">Font</rdfs:label>
@@ -733,9 +755,10 @@
 	<owl:ObjectProperty rdf:about="https://w3id.org/arm/ontology/1.0/hasType">
 		<rdfs:label xml:lang="en">type</rdfs:label>
 		<skos:definition xml:lang="en">This property allows implementers to choose an appropriate
-			vocabulary for events, inscriptions, enclosures, etc.</skos:definition>
+			vocabulary to type a resource</skos:definition>
+		<skos:scopeNote xml:lang="en">Can be used on any resource (e.g.: arm:Typeface--arm:hasType--gothic-antique OR arm:Event--arm:hasType--Exhibition)</skos:scopeNote>
 		<dcterms:issued>2020-12-16T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2020-12-16T00:00:00-04:00</dcterms:modified>
+		<dcterms:modified>2021-03-13T00:00:00-00:00</dcterms:modified>
 	</owl:ObjectProperty>
 	<owl:ObjectProperty rdf:about="https://w3id.org/arm/ontology/1.0/hasTypeface">
 		<rdfs:label xml:lang="en">has typeface</rdfs:label>
