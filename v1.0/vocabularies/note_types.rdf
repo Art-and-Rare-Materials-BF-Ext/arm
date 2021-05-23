@@ -14,9 +14,9 @@
     <skos:ConceptScheme rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/">
         <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
         <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
-        <skos:prefLabel xml:lang="en">Art and Rare Materials Physical Presentation Vocabulary</skos:prefLabel>
-        <skos:definition xml:lang="en">The Art and Rare Materials Physical Presentation Vocabulary is a controlled vocabulary to express the physical arrangment or configuration of objects described in rare materials metadata. Physical Presentation may apply to individual objects or collections of objects.</skos:definition>
-        <vann:preferredNamespacePrefix>arrangement</vann:preferredNamespacePrefix>
+        <skos:prefLabel xml:lang="en">Art and Rare Materials Note Types Vocabulary</skos:prefLabel>
+        <skos:definition xml:lang="en">The Art and Rare Materials Note Types Vocabulary is a controlled vocabulary to allow for specifying a category for notes added to resources.</skos:definition>
+        <vann:preferredNamespacePrefix>armNoteType</vann:preferredNamespacePrefix>
     </skos:ConceptScheme>
  
     <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/biographicalNote">
