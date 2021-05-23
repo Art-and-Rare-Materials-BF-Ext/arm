@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF  
+    xmlns="https://w3id.org/arm/vocabularies/1.0/note_types/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"  
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    > 
+    
+    <skos:ConceptScheme rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/">
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+        <skos:prefLabel xml:lang="en">Art and Rare Materials Note Types Vocabulary</skos:prefLabel>
+        <skos:definition xml:lang="en">The Art and Rare Materials Note Types Vocabulary is a controlled vocabulary to allow for specifying a category for notes added to resources.</skos:definition>
+        <vann:preferredNamespacePrefix>NoteType</vann:preferredNamespacePrefix>
+    </skos:ConceptScheme>
+ 
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/biographicalNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Biographical Note</skos:prefLabel>
+        <skos:definition>A note about an individual or other agent, providing a narrative of the main life events, activities, functions, achievements, and/or roles of the agent being described.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/captionsNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Captions Note</skos:prefLabel>
+        <skos:definition>A distinctive caption independent of the resource title, including mottos and headings.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/contentsNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Contents Note</skos:prefLabel>
+        <skos:definition>A note to provide a main contents of the resource rather than linking to an external table of contents or creating separate part/whole relationships to the entities that comprise the whole. Ideally, part whole relationships would be created instead of the this type of note.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/descriptiveNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Descriptive Note</skos:prefLabel>
+        <skos:definition>A note that describes the resource.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/historicalNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Historical Note</skos:prefLabel>
+        <skos:definition>A note about an institution or corporate body providing a narrative of main events, activities, functions, achievements, and/or roles of the agent being described.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/imprintNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Imprint Note</skos:prefLabel>
+        <skos:definition>A note providing details on publication, printing, or distribution of the resource being described.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/inaccuracyNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Inaccuracy Note</skos:prefLabel>
+        <skos:definition>A note explaining an unintentional or intentional inaccuracy, misspelling, or misprint relating to a specific resource.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/limitationNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Limitation Note</skos:prefLabel>
+        <skos:definition>A note relating to the size and nature of a print run limited to a specific quantity of copies produced, or a statement relating to the enumeration and nature of a copy in relation to the larger print run.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/preferredCitation">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Preferred Citation</skos:prefLabel>
+        <skos:definition>A note providing a specific citation format for citing the resource.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/processingNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Processing Note</skos:prefLabel>
+        <skos:definition>A note that provides information about actions of the archivist, custodians, or creators of the entity being described.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/relatedMaterialNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Related Material Note</skos:prefLabel>
+        <skos:definition>A note providing information on materials (e.g. archival materials or publications) related to the described resource. Use if information describing the related material cannot be parsed into the appropriate relationship.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/subjectNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Subject Note</skos:prefLabel>
+        <skos:definition>Textual information describing the subject or iconographic details of a resource. Use for textual notes only; do not use for listing subject terms from controlled vocabularies.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/summaryNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Summary Note</skos:prefLabel>
+        <skos:definition>A note providing a summary of the resource.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/supplementaryContentNote">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/note_types/"/>
+        <skos:prefLabel>Supplementary Content Note</skos:prefLabel>
+        <skos:definition>A note indicating the existence of supplementary content such as bibliographies, discographies, filmographies, and/or other bibliographic references in the described resource or in accompanying material.</skos:definition>
+        <dcterms:issued>2021-05-23T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-05-23T00:00:00-04:00</dcterms:modified>               
+    </skos:Concept>
+    
+</rdf:RDF>
