@@ -16,7 +16,7 @@
         <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
         <skos:prefLabel xml:lang="en">Art and Rare Materials Note Types Vocabulary</skos:prefLabel>
         <skos:definition xml:lang="en">The Art and Rare Materials Note Types Vocabulary is a controlled vocabulary to allow for specifying a category for notes added to resources.</skos:definition>
-        <vann:preferredNamespacePrefix>armNoteType</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix>NoteType</vann:preferredNamespacePrefix>
     </skos:ConceptScheme>
  
     <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/note_types/biographicalNote">
