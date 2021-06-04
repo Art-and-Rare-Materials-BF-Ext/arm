@@ -1,7 +1,7 @@
 Version 1.0 of the Art and Rare Materials (ARM) BIBFRAME Ontology Extensions
 ==========================
 
-*NOTE*: Version 1.0 replaces [version 0.1](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/tree/master/v0.1)
+*NOTE*: Version 1.0 replaces [version 0.1](https://art-and-rare-materials-bf-ext.github.io/arm/v0.1/)
 
 
 The ontology housed in this repository is being developed as an extension of the [BIBFRAME ontology](http://id.loc.gov/ontologies/bibframe/) for generalized bibliographic description to provide specialized modeling in the archives, art and rare materials domains. This work was originally created under the LD4P 2016-2018 project. Work in this repository replaces work posted in the grant-funded LD4P repository: [https://github.com/LD4P/arm](https://github.com/LD4P/arm)
@@ -27,4 +27,3 @@ Timothy Thompson, Yale University
 Ruth Kitchin Tillman, Pennsylvania State University  
 Melanie Wacker, Columbia University  
 Jessica Zieman, Library of Congress
-
