@@ -20,7 +20,7 @@ Linda Isaac, Harvard University
 Jason Kovari, Cornell University (ACRL-RBMS lead)  
 Jonathan Lill, Museum of Modern Art  
 Mark Matienzo, Stanford University  
-Danijela Matkovic, Yale University  
+Danijela Matković, Yale University  
 Jennifer Page, National Museum of Women in the Arts  
 Elizabeth Russey Roke, Emory University (SAA lead)  
 Timothy Thompson, Yale University  
