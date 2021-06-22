@@ -1,5 +1,12 @@
 # ARM Changelog
 
+## [v. 1.0] - 2021-06-04
+- Created redirects in w3id for ontology file (not vocabularies)
+
+## [v. 1.0] - 2021-05-23
+### Added vocabulary
+- Note Types vocabulary added
+
 ## [v. 1.0] - 2021-03-13
 ### Added terms
 
@@ -9,6 +16,14 @@
 
 ### Updated term
 - arm:hasType - edited definition to make more generic
+
+## [v. 1.0] - 2021-05-23
+### Added SKOS vocabularies
+- Handwriting Type
+- Origin
+- Physical Presentation
+- Status
+- Typeface
 
 ## [v. 1.0] - 2020-12-02 - 2020-12-16 
 - Created version 1.0 from version 0.1
