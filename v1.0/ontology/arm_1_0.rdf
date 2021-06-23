@@ -769,6 +769,20 @@
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
 	</owl:ObjectProperty>
+	<owl:ObjectProperty rdf:about="https://w3id.org/arm/ontology/1.0/isAppliedMaterialOf">
+		<rdfs:label xml:lang="en">is applied material of</rdfs:label>
+		<skos:definition xml:lang="en">Relates a material to the resource it was applied to.</skos:definition>
+		<owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/u/P60159"/>
+		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+		<dcterms:modified>2021-06-23T00:00:00-04:00</dcterms:modified>
+	</owl:ObjectProperty>
+	<owl:ObjectProperty rdf:about="https://w3id.org/arm/ontology/1.0/isBaseMaterialOf">
+		<rdfs:label xml:lang="en">is base material of</rdfs:label>
+		<skos:definition xml:lang="en">Relates a material to the resource it is the base of.</skos:definition>
+		<owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/u/P60596"/>
+		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+		<dcterms:modified>2021-06-23T00:00:00-04:00</dcterms:modified>
+	</owl:ObjectProperty>
 	<owl:ObjectProperty rdf:about="https://w3id.org/arm/ontology/1.0/isCitationOf">
 		<rdfs:label xml:lang="en">is citation of</rdfs:label>
 		<skos:definition xml:lang="en">Links a citation to the Item being cited.</skos:definition>
