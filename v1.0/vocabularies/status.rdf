@@ -47,6 +47,15 @@
         <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
     </skos:Concept>
     
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/status/found">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/status/"/>
+        <skos:prefLabel xml:lang="en">found</skos:prefLabel>
+        <skos:definition xml:lang="en">Used to indicate that a reference to one resource was found within another resource, typically by means of a citation.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-06-14T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
     <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/status/invalid">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/status/"/>
@@ -54,6 +63,15 @@
         <skos:definition xml:lang="en">Applies to an identifier or other resource that is invalid.</skos:definition>
         <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
         <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/status/notFound">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/status/"/>
+        <skos:prefLabel xml:lang="en">not found</skos:prefLabel>
+        <skos:definition xml:lang="en">Used to indicate that a reference to one resource was not found within another resource, typically by means of a citation.</skos:definition>
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-06-14T00:00:00-04:00</dcterms:modified>
     </skos:Concept>
     
 </rdf:RDF>
