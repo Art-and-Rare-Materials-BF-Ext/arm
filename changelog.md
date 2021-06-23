@@ -1,5 +1,12 @@
 # ARM Changelog
 
+## [v. 1.0] - 2021-06-23
+### Added terms
+- isAppliedMaterialOf
+- isBaseMaterialOf
+- found (status vocab)
+- notFound (status vocab)
+
 ## [v. 1.0] - 2021-06-04
 - Created redirects in w3id for ontology file (not vocabularies)
 
