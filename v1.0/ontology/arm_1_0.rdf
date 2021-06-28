@@ -118,15 +118,6 @@
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/CaptionNote">
-		<rdfs:label xml:lang="en">Caption note</rdfs:label>
-		<skos:definition xml:lang="en">A distinctive caption independent of the resource title,
-			including mottos and headings.</skos:definition>
-		<rdfs:comment xml:lang="en">Use separate notes for multiple captions.</rdfs:comment>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Citation">
 		<rdfs:label xml:lang="en">Citation</rdfs:label>
 		<skos:definition xml:lang="en">A single citation within a bibliographic
@@ -150,18 +141,6 @@
 		<dcterms:issued>2021-03-13T00:00:00-00:00</dcterms:issued>
 		<dcterms:modified>2021-03-13T00:00:00-00:00</dcterms:modified>
 	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/ContentsNote">
-		<rdfs:label xml:lang="en">Contents note</rdfs:label>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<skos:definition xml:lang="en">A note to provide a main contents of the resource rather than
-			linking to an external table of contents or creating separate part/whole relationships
-			to the entities that comprise the whole. Ideally, part whole relationships would be
-			created instead of the this type of note.</skos:definition>
-		<skos:editorialNote>This note type was created based on
-			http://bibliotek-o.org/1.1/ontology/specifyingContents. Likely belongs in a general
-			bf:Notes extension, but need to add it here for now.</skos:editorialNote>
-		<dcterms:issued>2018-01-29T00:00:00-04:00</dcterms:issued>
-	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/CustodialHistory">
 		<rdfs:label xml:lang="en">Custodial history</rdfs:label>    
 		<skos:definition xml:lang="en">Entity that aggregates all of the custodial events for a resource.</skos:definition>
@@ -169,13 +148,6 @@
 		<rdfs:subClassOf rdf:resource="https://w3id.org/arm/ontology/1.0/ItemHistory"/>
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2021-03-13T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/DescriptiveNote">
-		<rdfs:label xml:lang="en">Descriptive note</rdfs:label>
-		<skos:definition xml:lang="en">A note that describes the resource.</skos:definition>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Enclosure">
 		<rdfs:label xml:lang="en">Enclosure</rdfs:label>
@@ -253,14 +225,6 @@
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/InaccuracyNote">
-		<rdfs:label xml:lang="en">Inaccuracy note</rdfs:label>
-		<skos:definition xml:lang="en">A note explaining an unintentional or intentional inaccuracy,
-			misspelling, or misprint relating to a specific resource.</skos:definition>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Inscription">
 		<rdfs:label xml:lang="en">Inscription</rdfs:label>
 		<skos:definition xml:lang="en">Words, texts, lettering or symbols written or engraved on a
@@ -275,15 +239,6 @@
 			inscribed, printed, or engraved with information and affixed to a resource or part of a
 			resource for identification or description.</skos:definition>
 		<rdfs:subClassOf rdf:resource="https://w3id.org/arm/ontology/1.0/Marking"/>
-		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/LimitationNote">
-		<rdfs:label xml:lang="en">Limitation note</rdfs:label>
-		<skos:definition xml:lang="en">A note relating to the size and nature of a print run limited
-			to a specific quantity of copies produced, or a statement relating to the enumeration
-			and nature of a copy in relation to the larger print run.</skos:definition>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
@@ -353,16 +308,6 @@
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/RelatedMaterialNote">
-		<rdfs:label xml:lang="en">Related material note</rdfs:label>
-		<skos:definition xml:lang="en">A note providing information on materials (e.g. archival
-			materials or publications) related to the described resource.</skos:definition>
-		<skos:scopeNote xml:lang="en">Use if information describing the related material cannot be
-			parsed into the appropriate relationship.</skos:scopeNote>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Seal">
 		<rdfs:label xml:lang="en">Seal</rdfs:label>
 		<skos:definition xml:lang="en">An impression that has been made in wax, clay, or another
@@ -398,36 +343,6 @@
 			group, or school whose characteristics are represented in a work.</skos:definition>
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/SubjectNote">
-		<rdfs:label xml:lang="en">Subject note</rdfs:label>
-		<skos:definition xml:lang="en">Textual information describing the subject or iconographic
-			details of a resource.</skos:definition>
-		<skos:scopeNote xml:lang="en">Use for textual notes only, not for subject terms from a
-			controlled value vocabulary.</skos:scopeNote>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/SummaryNote">
-		<rdfs:label xml:lang="en">Summary note</rdfs:label>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<skos:definition xml:lang="en">A note providing a summary of the resource.</skos:definition>
-		<skos:editorialNote>This note type was created based on
-			http://bibliotek-o.org/1.1/ontology/summarizing. Likely belongs in a general bf:Notes
-			extension, but need to add it here for now.</skos:editorialNote>
-		<dcterms:issued>2018-01-29T00:00:00-04:00</dcterms:issued>
-	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/SupplementaryContentNote">
-		<rdfs:label xml:lang="en">Supplementary content note</rdfs:label>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
-		<skos:definition xml:lang="en">A note indicating the existence of supplementary content such
-			as bibliographies, discographies, filmographies, and/or other bibliographic references
-			in the described resource or in accompanying material.</skos:definition>
-		<skos:editorialNote>This note type was created based on
-			http://bibliotek-o.org/1.1/ontology/describingSupplementaryContent. Likely belongs in a
-			general bf:Notes extension, but need to add it here for now.</skos:editorialNote>
-		<dcterms:issued>2018-01-29T00:00:00-04:00</dcterms:issued>
 	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/TextBlock">
 		<owl:disjointWith rdf:resource="https://w3id.org/arm/ontology/1.0/Enclosure"/>
