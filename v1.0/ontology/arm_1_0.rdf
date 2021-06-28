@@ -300,6 +300,14 @@
 		<dcterms:issued>2020-12-16T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2020-12-16T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
+	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/PreferredCitation">
+		<rdfs:label xml:lang="en">Preferred citation</rdfs:label>
+		<skos:definition xml:lang="en">A note providing a specific citation format for citing the
+			resource.</skos:definition>
+		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Note"/>
+		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
+	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Seal">
 		<rdfs:label xml:lang="en">Seal</rdfs:label>
 		<skos:definition xml:lang="en">An impression that has been made in wax, clay, or another
