@@ -1,5 +1,18 @@
 # ARM Changelog
 
+
+## [v. 1.0] - 2021-06-28
+### Removed Classes from ontology for note types in vocabulary
+- CaptionsNote
+- ContentsNote
+- DescriptiveNote
+- InaccuracyNote
+- LimitationNote
+- RelatedMaterialNote
+- SubjectNote
+- SummaryNote
+- SupplementaryContentNote
+
 ## [v. 1.0] - 2021-06-23
 ### Added terms
 - isAppliedMaterialOf
