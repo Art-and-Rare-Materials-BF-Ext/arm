@@ -69,18 +69,6 @@
 		<dcterms:issued>2020-11-14T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2020-11-14T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
-	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/AccessionNumber">
-		<rdfs:label xml:lang="en">Accession number</rdfs:label>
-		<skos:definition xml:lang="en">Numeric, alphanumeric, or other identifying codes assigned
-			when an art object, book, or other item enters the collection of a museum, library, or
-			other repository. Such codes are unique within the set of codes, and specifically
-			identify the particular item at hand. The numbers may be marked on the objects or not. </skos:definition>
-		<rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Identifier"/>
-		<skos:editorialNote xml:lang="en">Deprecate this class when it is defined in
-			BIBFRAME.</skos:editorialNote>
-		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
-		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
-	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Autograph">
 		<rdfs:label xml:lang="en">Autograph</rdfs:label>
 		<skos:definition xml:lang="en">A person's name written on a resource in their own hand.</skos:definition>
