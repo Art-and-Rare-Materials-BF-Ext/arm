@@ -1,5 +1,8 @@
 # ARM Changelog
 
+## [v. 1.0] - 2021-09-15
+### Removed from ontology
+- AccessionNumber (LC added to BIBFRAME)
 
 ## [v. 1.0] - 2021-06-28
 ### Removed Classes from ontology for note types in vocabulary
