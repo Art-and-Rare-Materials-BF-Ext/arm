@@ -17,7 +17,7 @@ Work on ARM version 1.0 was performed under the auspices of the Art Libraries So
 - Status vocabulary: https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/status.rdf
 - Typeface vocabulary: https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/typeface.rdf
 
-Members
+Editorial Group Members
 -------
 
 Robin Desmeules, McGill University  
