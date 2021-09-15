@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF  
+    xmlns="https://w3id.org/arm/vocabularies/1.0/relator/"
+    xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"  
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    > 
+    
+    
+    <skos:ConceptScheme rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/">
+        <dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-01-25T00:00:00-04:00</dcterms:modified>
+        <skos:prefLabel xml:lang="en">Art and Rare Materials Realor Vocabulary</skos:prefLabel>
+        <skos:definition xml:lang="en">The Art and Rare Materials Relator Vocabulary is a controlled vocabulary to express the relationship between agents and other resources. This vocabulary is not intended to be duplicative of other relator vocabularies; instead, this fills gaps related to art, archives and rare materials.</skos:definition>
+        <vann:preferredNamespacePrefix>relator</vann:preferredNamespacePrefix>
+    </skos:ConceptScheme>
+    
+
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/awardGranter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Award granter</skos:prefLabel>
+        <skos:definition xml:lang="en">The granter/provider of an award.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/awardSelector">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Award selector</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of nominating or judging a resource in relation to an award, honor, etc.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/accessioner">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Accessioner</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of adding a resource to a collection.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/acquisition">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Acquisition</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of gaining possession of a resource.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/borrower">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Borrower</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of taking possession, but not ownership, of a resource.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/buyer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Buyer</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of purchasing a resource.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/claimant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Claimant</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of declaring ownership of a resource, notably when the claim is not clearly substantiated.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>   
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/dealer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Dealer</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of negotiating or arranging for a transaction.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/deaccessioner">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Deaccessioner</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of permanently removing accessioned items from a collection or repository.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/destroyer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Destroyer</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of permanently destroying a resource.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/discarder">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Discarder</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of permanently removing a resource or part of a resource from a collection for disposal.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/disputant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Disputant</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of challenging a claim, such as a claim of ownership.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/exhibitor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Exhibitor</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of showing or presenting a resource for public view.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/inheritor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Inheritor</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of taking possession of a resource upon the death of the previous owner, either through bequest or application of law.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/loss">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Loss</skos:prefLabel>
+        <skos:definition xml:lang="en">Responsibility for the disappearance of a resource where the circumstances of the disappearance are unknown.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/offer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Offer</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of providing a resource for purchase or other form of acquisition. Use for booksellers and sellers of other resources.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/recipient">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Recipient</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of receiving a resource, via bequest, donation, etc.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/recoverer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Recoverer</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of re-assuming ownership of a resource following a period of loss, possibly due to theft.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/repatriator">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Repatriator</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of returning a resource to its home country.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/testator">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Testator</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of bequeathing a resource in a will.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/thief">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Thief</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of acquiring a resource without the consent of the legal owner.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/transferer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Transferer</skos:prefLabel>
+        <skos:definition xml:lang="en">The act of giving possession of a resource to another party, notably without a defined sale or donation.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="https://w3id.org/arm/vocabularies/1.0/relator/witness">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="https://w3id.org/arm/vocabularies/1.0/relator/"/>
+        <skos:prefLabel xml:lang="en">Witness</skos:prefLabel>
+        <skos:definition xml:lang="en">The activity of verifying the truthfulness of an event or action.</skos:definition>
+        <dcterms:issued>2021-09-15T00:00:00-04:00</dcterms:issued>
+        <dcterms:modified>2021-09-15T00:00:00-04:00</dcterms:modified>
+    </skos:Concept>
+    
+</rdf:RDF>
