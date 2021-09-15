@@ -4,6 +4,9 @@
 ### Removed from ontology
 - AccessionNumber (LC added to BIBFRAME)
 
+### Added terms
+- Relator vocabulary added
+
 ## [v. 1.0] - 2021-06-28
 ### Removed Classes from ontology for note types in vocabulary
 - CaptionsNote
