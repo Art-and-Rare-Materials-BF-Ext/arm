@@ -8,7 +8,7 @@ The ontology housed in this repository is being developed as an extension of the
 
 Work on ARM version 1.0 was performed 2019-2021 under the auspices of the Art Libraries Society of North America's Cataloging Advisory Committee, the Association of College and Research Library's Rare Books and Manuscript Section's Bibliographic Standards Committee and the Society of American Archivists' Standards Committee.
 
-**RDF files**
+**RDF files**: 
 - Ontology: [https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/ontology/arm_1_0.rdf](https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/ontology/arm_1_0.rdf)
 - Note Types vocabulary: [https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/note_types.rdf](https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/note_types.rdf)
 - Origin vocabulary: [https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/origin.rdf](https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/origin.rdf)
@@ -17,9 +17,12 @@ Work on ARM version 1.0 was performed 2019-2021 under the auspices of the Art Li
 - Status vocabulary: [https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/status.rdf](https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/status.rdf)
 - Typeface vocabulary: [https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/typeface.rdf](https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/status.rdf)
 
-**Additional files**
+**Additional files**: 
 - Implementation Guidelines: [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v1.0/implementation_gudelines.pdf](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v1.0/implementation_gudelines.pdf)
 - Changelog: [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/changelog.md](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/changelog.md)
+
+**GitHub Repository**: 
+[https://github.com/Art-and-Rare-Materials-BF-Ext/arm](https://github.com/Art-and-Rare-Materials-BF-Ext/arm)
 
 Editorial Group Members
 -------
