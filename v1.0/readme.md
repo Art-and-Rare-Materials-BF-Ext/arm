@@ -17,6 +17,10 @@ Work on ARM version 1.0 was performed 2019-2021 under the auspices of the Art Li
 - Status vocabulary: [https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/status.rdf](https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/status.rdf)
 - Typeface vocabulary: [https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/typeface.rdf](https://art-and-rare-materials-bf-ext.github.io/arm/v1.0/vocabularies/status.rdf)
 
+**Additional files**
+- Implementation Guidelines: [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v1.0/implementation_gudelines.pdf](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v1.0/implementation_gudelines.pdf)
+- Changelog: [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/changelog.md](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/changelog.md)
+
 Editorial Group Members
 -------
 
