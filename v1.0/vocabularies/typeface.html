@@ -1,0 +1,143 @@
+<html xmlns:disp="http://www.sparna.fr/thesaurus-display">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Art &amp; Rare Materials BIBFRAME Ontology v1.0 - Typeface Vocabulary</title>
+            <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+                <script src="js/jquery-1.9.1.min.js"></script><script src="bootstrap/js/bootstrap.min.js"></script>
+                <style>
+					.kwic-left {
+						float:left;
+						width:35%;
+						margin-right: 0.8em;
+						direction: rtl;
+						overflow: visible;
+						white-space:nowrap;
+					}
+					
+					.kwic-row ul {
+						list-style-type:none;
+						margin-left:0.8em;
+						display:inline;
+					}
+					
+					.kwic-row ul li {
+						display:inline;
+					}
+					
+					.kwac-row .att {
+					 	margin-bottom:0px;
+					}
+					
+					.kwac-row .alt {
+					 	font-style:italic;
+					 	text-decoration:none;
+					}
+					
+					.kwic-row .alt {
+					 	font-style:italic;
+					 	text-decoration:none;
+					}
+
+					.att {
+						margin-left: 1em;
+						list-style: none;
+					}
+					.att > li { font-size: 80% }
+					
+					.ext-link {
+						background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=');
+						background-repeat: no-repeat;
+						background-position : 100% 50%;
+						padding-right:13px;
+						cursor:pointer;
+					}
+					
+					.pref {
+						font-weight: bold;
+					}
+					
+					.alt {
+						font-style:italic;
+						text-decoration:line-through;
+					}
+					
+					.alt-att {
+						font-style:italic;
+					}
+	
+				</style>
+    </head>
+    <body style="margin-bottom: 40px;">
+        <div class="container">
+            <div class="header">
+                <h1>Art &amp; Rare Materials BIBFRAME Ontology v1.0 - Typeface Vocabulary</h1>
+                <h2>https://w3id.org/arm/vocabularies/1.0/typeface/</h2>
+                <p>Created using <a href="https://skos-play.sparna.fr/play/">SKOS Play</a></p>
+                <div></div>
+            </div>
+            <div class="display">
+                <div id="" class="section">
+                    <ul>
+                        <li>
+                            <div id="86fd0d73-fc0f-42ef-868e-0f670e17e7331810597991">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/typeface/gothic-antique" class="ext-uri"><a class="pref" href="#1810597991">gothic-antique</a></span>
+                                <ul class="att">
+                                    <li>DEF : Subgroup of black letter typefaces which are a mix of black letter and roman; rounder and less angular than black letter, and most vertical strokes lack "feet" or ending strokes.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="86fd0d73-fc0f-42ef-868e-0f670e17e733-1579936649">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/typeface/rotunda" class="ext-uri"><a class="pref" href="#-1579936649">rotunda</a></span>
+                                <ul class="att">
+                                    <li>DEF : Subgroup of black letter typefaces; basically the Southern European black letter.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="86fd0d73-fc0f-42ef-868e-0f670e17e733-1056474825">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/typeface/textura" class="ext-uri"><a class="pref" href="#-1056474825">textura</a></span>
+                                <ul class="att">
+                                    <li>DEF : Subgroup of black letter typefaces which are squarely drawn and almost completely lacking curves.</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer"></div>
+        </div>
+        <script>
+			      $(document).ready(function () {
+					// add external link behavior to every external link
+					/*
+					$('span[title]:not(:has(a))').mouseover(function() {
+						$(this).addClass('ext-link');
+					});
+					$('span[title]:not(:has(a))').mouseout(function() {
+						$(this).removeClass('ext-link');
+					});
+					$('span[title]:not(:has(a))').click(function() {
+						window.open($(this).attr('title'));
+						// change this to the following line to have links open in same window/tab
+						// document.location.href = $(this).attr('title');
+					});
+					*/
+					
+					// gestion des liens externes
+					$('.ext-uri').mouseover(function() {
+						$(this).addClass('ext-link');
+					});
+					$('.ext-uri').mouseout(function() {
+						$(this).removeClass('ext-link');
+					});
+					$('.ext-uri').click(function() {
+						window.open($(this).attr('title'));
+						// change this to the following line to have links open in same window/tab
+						// document.location.href = $(this).attr('title');
+					});
+					
+			      });					
+				</script>
+    </body>
+</html>

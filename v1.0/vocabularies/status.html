@@ -1,0 +1,168 @@
+<html xmlns:disp="http://www.sparna.fr/thesaurus-display">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Art &amp; Rare Materials BIBFRAME Ontology v1.0 - Status Vocabulary</title>
+            <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+                <script src="js/jquery-1.9.1.min.js"></script><script src="bootstrap/js/bootstrap.min.js"></script>
+                <style>
+					.kwic-left {
+						float:left;
+						width:35%;
+						margin-right: 0.8em;
+						direction: rtl;
+						overflow: visible;
+						white-space:nowrap;
+					}
+					
+					.kwic-row ul {
+						list-style-type:none;
+						margin-left:0.8em;
+						display:inline;
+					}
+					
+					.kwic-row ul li {
+						display:inline;
+					}
+					
+					.kwac-row .att {
+					 	margin-bottom:0px;
+					}
+					
+					.kwac-row .alt {
+					 	font-style:italic;
+					 	text-decoration:none;
+					}
+					
+					.kwic-row .alt {
+					 	font-style:italic;
+					 	text-decoration:none;
+					}
+
+					.att {
+						margin-left: 1em;
+						list-style: none;
+					}
+					.att > li { font-size: 80% }
+					
+					.ext-link {
+						background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=');
+						background-repeat: no-repeat;
+						background-position : 100% 50%;
+						padding-right:13px;
+						cursor:pointer;
+					}
+					
+					.pref {
+						font-weight: bold;
+					}
+					
+					.alt {
+						font-style:italic;
+						text-decoration:line-through;
+					}
+					
+					.alt-att {
+						font-style:italic;
+					}
+	
+				</style>
+    </head>
+    <body style="margin-bottom: 40px;">
+        <div class="container">
+            <div class="header">
+                <h1>Art &amp; Rare Materials BIBFRAME Ontology v1.0 - Status Vocabulary</h1>
+                <h2>https://w3id.org/arm/vocabularies/1.0/status/</h2>
+                <p>Created using <a href="https://skos-play.sparna.fr/play/">SKOS Play</a></p>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="display">
+                <div id="" class="section">
+                    <ul>
+                        <li>
+                            <div id="69611f96-f266-4424-81c0-66f2f13fd2851508151612">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/status/cancelled" class="ext-uri"><a class="pref" href="#1508151612">cancelled</a></span>
+                                <ul class="att">
+                                    <li>DEF : Applies to an identifier or other resource that has been cancelled.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="69611f96-f266-4424-81c0-66f2f13fd285953723388">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/status/current" class="ext-uri"><a class="pref" href="#953723388">current</a></span>
+                                <ul class="att">
+                                    <li>DEF : Applies to an identifier or other resource that is currently valid.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="69611f96-f266-4424-81c0-66f2f13fd285495982274">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/status/deprecated" class="ext-uri"><a class="pref" href="#495982274">deprecated</a></span>
+                                <ul class="att">
+                                    <li>DEF : Applies to an identifier or other resource that has been deprecated.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="69611f96-f266-4424-81c0-66f2f13fd285-2115247268">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/status/found" class="ext-uri"><a class="pref" href="#-2115247268">found</a></span>
+                                <ul class="att">
+                                    <li>DEF : Used to indicate that a reference to one resource was found within another resource, typically by means of a citation.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="69611f96-f266-4424-81c0-66f2f13fd285-1236647876">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/status/invalid" class="ext-uri"><a class="pref" href="#-1236647876">invalid</a></span>
+                                <ul class="att">
+                                    <li>DEF : Applies to an identifier or other resource that is invalid.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="69611f96-f266-4424-81c0-66f2f13fd28515210186">
+                                <span title="https://w3id.org/arm/vocabularies/1.0/status/notFound" class="ext-uri"><a class="pref" href="#15210186">not found</a></span>
+                                <ul class="att">
+                                    <li>DEF : Used to indicate that a reference to one resource was not found within another resource, typically by means of a citation.</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer"></div>
+        </div>
+        <script>
+			      $(document).ready(function () {
+					// add external link behavior to every external link
+					/*
+					$('span[title]:not(:has(a))').mouseover(function() {
+						$(this).addClass('ext-link');
+					});
+					$('span[title]:not(:has(a))').mouseout(function() {
+						$(this).removeClass('ext-link');
+					});
+					$('span[title]:not(:has(a))').click(function() {
+						window.open($(this).attr('title'));
+						// change this to the following line to have links open in same window/tab
+						// document.location.href = $(this).attr('title');
+					});
+					*/
+					
+					// gestion des liens externes
+					$('.ext-uri').mouseover(function() {
+						$(this).addClass('ext-link');
+					});
+					$('.ext-uri').mouseout(function() {
+						$(this).removeClass('ext-link');
+					});
+					$('.ext-uri').click(function() {
+						window.open($(this).attr('title'));
+						// change this to the following line to have links open in same window/tab
+						// document.location.href = $(this).attr('title');
+					});
+					
+			      });					
+				</script>
+    </body>
+</html>
