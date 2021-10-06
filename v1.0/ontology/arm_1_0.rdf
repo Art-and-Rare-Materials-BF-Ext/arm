@@ -230,6 +230,13 @@
 		<dcterms:issued>2018-04-27T00:00:00-04:00</dcterms:issued>
 		<dcterms:modified>2018-04-27T00:00:00-04:00</dcterms:modified>
 	</owl:Class>
+	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Marginalia">
+		<rdfs:label xml:lang="en">Marginalia</rdfs:label>
+		<skos:definition xml:lang="en">Notes or symbols written or printed in the margins of a page.</skos:definition>
+		<rdfs:subClassOf rdf:resource="https://w3id.org/arm/ontology/1.0/Marking"/>
+		<dcterms:issued>2021-10-06T00:00:00-04:00</dcterms:issued>
+		<dcterms:modified>2021-10-06T00:00:00-04:00</dcterms:modified>
+	</owl:Class>
 	<owl:Class rdf:about="https://w3id.org/arm/ontology/1.0/Marking">
 		<rdfs:label xml:lang="en">Marking</rdfs:label>
 		<skos:definition xml:lang="en">A symbol, notation, or other mark present in or applied to an
