@@ -44,7 +44,7 @@ Regine Heberlein, Princeton University
 Linda Isaac, Harvard University  
 Jason Kovari, Cornell University (ACRL-RBMS lead)  
 Jonathan Lill, Museum of Modern Art  
-Mark Matienzo, Stanford University  
+M.A. Matienzo, Stanford University  
 Danijela Matković, Yale University  
 Jennifer Page, National Museum of Women in the Arts  
 Elizabeth Russey Roke, Emory University (SAA lead)  
