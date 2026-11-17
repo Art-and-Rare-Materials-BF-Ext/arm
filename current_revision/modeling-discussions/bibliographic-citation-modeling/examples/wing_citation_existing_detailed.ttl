@@ -1,0 +1,31 @@
+# Detailed Wing example from the v0.1 modeling recommendations, with some terms updated to ARM 1.0.
+# All example.org URIs are placeholders.
+
+@prefix arm: <https://w3id.org/arm/ontology/1.0/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <https://example.org/> .
+
+ex:instance2.1 a bf:Instance ;
+    arm:hasCitation ex:citation2.1 .
+
+ex:instance2.2 a bf:Instance .
+
+ex:citation2.1 a arm:Citation ;
+    arm:hasSource ex:entry ;
+    bf:note ex:note2.1 .
+
+ex:note2.1 a bf:Note ;
+    rdf:value "According to Wing, the third part . . ." .
+
+ex:entry a arm:Entry ;
+    rdf:value "IB 8615" ;
+    arm:atLocation ex:page .
+
+ex:page a arm:Page ;
+    rdf:value "498" ;
+    bf:partOf ex:volume .
+
+ex:volume a arm:Volume ;
+    rdf:value "II" ;
+    bf:partOf ex:instance2.2 .

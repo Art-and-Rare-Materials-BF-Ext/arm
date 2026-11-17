@@ -1,0 +1,17 @@
+# Basic Wing example from the v0.1 modeling recommendations, with some terms updated to ARM 1.0.
+# All example.org URIs are placeholders.
+# Both directions of each relationship are expressed, as in the diagram.
+# Note that the diagram does not specify a class for ex:source1.
+
+@prefix arm: <https://w3id.org/arm/ontology/1.0/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ex: <https://example.org/> .
+
+ex:instance1 a bf:Instance ;
+    arm:hasCitation ex:citation1 .
+
+ex:citation1 a arm:Citation ;
+    arm:isCitationOf ex:instance1 ;
+    arm:hasSource ex:source1 .
+
+ex:source1 arm:isSourceOf ex:citation1 .
