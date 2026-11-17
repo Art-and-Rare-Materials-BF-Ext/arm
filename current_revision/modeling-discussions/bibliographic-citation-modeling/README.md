@@ -6,6 +6,8 @@ I also briefly explore a flatter and possibly simpler model that attempts to add
 
 The diagrams and [Turtle examples](examples/) are included in this folder.
 
+Please post questions, comments, responses, etc. on [this issue](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/issues/82)
+
 ## Use cases
 
 The [v1.0 Implementation Guidelines](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v1.0/implementation_gudelines.pdf) describe four use cases (pages 8-9):
@@ -140,3 +142,5 @@ See [arm_scopenotes_review.xlsx](https://docs.google.com/spreadsheets/d/1MRpr7ca
 [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v0.1/modeling_recommendations/bibliographic_citations.md](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v0.1/modeling_recommendations/bibliographic_citations.md)
 
 [https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v1.0/vocabularies/status.rdf](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/blob/main/v1.0/vocabularies/status.rdf)
+
+## Please post questions, comments, responses, etc. on [this issue](https://github.com/Art-and-Rare-Materials-BF-Ext/arm/issues/82)
