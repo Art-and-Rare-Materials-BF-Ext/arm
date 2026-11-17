@@ -1,0 +1,27 @@
+# Wing example updated to ARM 1.0 terms with flatter pattern.
+# Retains Entry and records entry number, page, and volume as literal values.
+# proposal: property names and all example.org URIs are placeholders.
+
+@prefix arm: <https://w3id.org/arm/ontology/1.0/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <https://example.org/> .
+@prefix proposal: <https://example.org/proposed-arm/> .
+
+ex:instance2.1 a bf:Instance ;
+    arm:hasCitation ex:citation2.1 .
+
+ex:instance2.2 a bf:Instance .
+
+ex:citation2.1 a arm:Citation ;
+    arm:hasSource ex:entry ;
+    bf:note ex:note2.1 .
+
+ex:note2.1 a bf:Note ;
+    rdf:value "According to Wing, the third part . . ." .
+
+ex:entry a arm:Entry ;
+    proposal:entryNumber "IB 8615" ;
+    proposal:pageDesignation "498" ;
+    proposal:volumeDesignation "II" ;
+    bf:partOf ex:instance2.2 .
